@@ -232,6 +232,7 @@ public class ProcessOperationController {
                 formParameter.setNextStep("confirmStartProcess");
             }
 
+
             return this.doViewStartForm(formParameter, model, tenantId);
         } else if (processDto.isConfigTask()) {
             formParameter.setProcessDefinitionId(processDefinitionId);
